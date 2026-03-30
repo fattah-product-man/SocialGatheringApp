@@ -1,0 +1,18 @@
+{
+  "name": "@aura-ui/core",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "lint": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.73",
+    "react-native-reanimated": ">=3",
+    "moti": ">=0.29",
+    "@shopify/react-native-skia": ">=1",
+    "nativewind": ">=4"
+  }
+}

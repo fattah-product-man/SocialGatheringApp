@@ -1,0 +1,13 @@
+{
+  "name": "aura-ui-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "gallery": "cd apps/gallery && npx expo start",
+    "gallery:ios": "cd apps/gallery && npx expo run:ios",
+    "gallery:android": "cd apps/gallery && npx expo run:android"
+  }
+}

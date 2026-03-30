@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Aura UI Gallery",
+    "slug": "aura-ui-gallery",
+    "version": "1.0.0",
+    "scheme": "aura-gallery",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#09090b",
+    "splash": {
+      "backgroundColor": "#09090b"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.auraui.gallery"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#09090b"
+      },
+      "package": "com.auraui.gallery"
+    },
+    "plugins": [
+      "expo-router",
+      "@shopify/react-native-skia"
+    ]
+  }
+}
